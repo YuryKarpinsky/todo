@@ -5,8 +5,7 @@ window.addEventListener('load', () =>{
     
     form.addEventListener('submit', (e) =>{
         e.preventDefault();
-        // чтобы информация не удалялась после обновления страницы
-        const task = input.value;
+           const task = input.value;
 
         if (!task) {
            alert('Please enter the task')
